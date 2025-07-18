@@ -1,0 +1,93 @@
+---
+title: "Professional Resume of Raymond (Bodie) Glass"
+format: html
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("scripts", "setup.R"))
+```
+
+I am a data professional working in the field of analytics and data querying/transformation. Currently I am used to working in a semi-structured development environment to create various data solutions to solve for the need of many different business areas of a financial institution.
+
+## Experience
+
+### Business Intelligence Developer  \|  RBFCU  \|  Jul.2020 - Present
+
+Responsible for the collection, transformation, and analysis of data from various sources to produce value and insights for business areas and other data management teams through the production and maintenance of data visualizations and tabular reports, data analyses, data applications, and data extracts.
+
+-   Collaborate with Stakeholders to collect business assumptions and requirements for all data development work and translate collected details to technical specifications for solution design and development.
+
+-   Present and articulate technical findings, challenges, and guidance through various media to non-technical stakeholders through all stages of work.
+
+-   Design, develop, and maintain persistent data visualizations and tabular reports, as well as data analyses, applications, and extracts.
+
+-   Perform ad-hoc data analyses to reveal trends, insights, opportunities, or data deficiencies to aid business decisions, projects, system implementations, and data integration efforts.
+
+-   Maintain and curate a catalog of business intelligence assets, with supporting code versioning repositories and thorough documentation.
+
+### Quantitative Risk Analyst  \|  USAA  \|  Apr.2019 - Jul.2020
+
+Positioned in the first line of defense to ensure the overall effectiveness of risk and compliance management programs, risk analytics and operations in the business. This role partners and collaborates with Compliance and Risk Management, as well as Business Operations, IT, Audit Services, and Regulators to support risk and compliance based initiatives. Responsible for ensuring adherence to the governance of the established risk framework and ongoing supervision of business controls including risk and control self-assessments, identification and evaluation of control effectiveness, identifying control failures, facilitating risk and compliance remediation, market conduct exams, and monitoring the first line of defense in an effort to minimize risk exposures and strengthen the overall control environment. Leverages risk assessment data, and identifies key data-driven insights tied to first line of defense.
+
+### Business Intelligence Analyst  \|  RBFCU  \|  Jan.2019 - Apr.2019
+
+Responsible for ensuring the integrity and efficiency of data flows and that data is shaped and delivered to the appropriate consumer to enable the business to make data driven business decisions using data analytics. Accountable for designing, development, and maintaining business intelligence tools, databases, dashboards, systems and established data querying methods. Additionally, gather and manipulate/synthesize data, models, and other relevant information to draw conclusions and make recommendations resulting in implementable strategies, generating insightful data visuals, reports, and data extracts.
+
+## Skills
+
+### Data oriented coding languages:
+
+-   SQL - advanced
+
+-   R - advanced
+
+-   Python - novice
+
+### Software & applications:
+
+-   RStudio suite of applications (workbench, connect, package manager)
+
+-   Databricks, Azure Data Lake Storage (ADLS)
+
+-   Oracle db, Microsoft sql server, IBM DB2, Visual Studio
+
+-   Power BI, Tableau
+
+-   GitHub
+
+-   Atlassian products such as Confluence for wiki (documentation), Jira (process flow and ticketing), etc.
+
+## Skills Demonstrated
+
+```{r}
+#| label: starwars-height
+#| include: TRUE
+
+data("starwars")
+
+char_height <- starwars |>
+  select(name, height) |>
+  arrange(desc(height)) |>
+  slice(1:10)
+
+ggplot(char_height, aes(reorder(name, -height), height)) +
+  geom_col(aes(fill = name)) +
+  labs(title = "Top 10 Tallest Star Wars Characters") +
+  xlab("") +
+  ylab("height in.") +
+  scale_fill_manual(values = c("#534b4f","#354230","#666699","#a67b5b", "#757575",
+                               "#c4aead", "#353839", "#c4c3d0", "#5f9ea0","#bfc1c2")) +
+  theme(axis.text.x = element_text(angle = 45, vjust = .5, hjust = 1), 
+        legend.position="none") 
+```
+
+## Contact
+
+Raymond C. Glass III
+
+**em**: rglass86\@gmail.com
+
+**ph**: 210-454-5817
