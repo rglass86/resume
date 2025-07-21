@@ -10,7 +10,7 @@ format: html
 source(here::here("scripts", "setup.R"))
 ```
 
-I am a data professional working in the field of analytics and data querying/transformation. Currently I am used to working in a semi-structured development environment to create various data solutions to solve for the need of many different business areas of a financial institution.
+I am a data professional working in the field of analytics and data querying/transformation. Currently I am used to working in a semi-structured development environment to create various data solutions to solve for the needs of many different business areas of a financial institution.
 
 ## Experience
 
