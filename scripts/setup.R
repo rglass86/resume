@@ -6,4 +6,6 @@ library(here)
 library(jsonlite)
 library(wesanderson)
 
+# rsconnect::writeManifest()
+
 

@@ -84,6 +84,30 @@ ggplot(char_height, aes(reorder(name, -height), height)) +
         legend.position="none") 
 ```
 
+```{r}
+#| label: starwars-species-mass
+#| include: TRUE
+
+data("starwars")
+
+homeworld_mass <- starwars |>
+  filter(!is.na(mass),
+         !is.na(homeworld)) |>
+  mutate(homeworld = factor(homeworld)) |>
+  group_by(homeworld) |>
+  summarise(avg_mass = mean(mass))
+
+ggplot(homeworld_mass, aes(reorder(homeworld, -avg_mass), avg_mass, color = homeworld)) +
+  geom_point(aes(size = avg_mass)) +
+  geom_segment(aes(x = homeworld, xend = homeworld, y = 0, yend = avg_mass)) +
+  labs(title = "Avg of Character Mass by Star Wars Planet") +
+  xlab("") +
+  ylab("") +
+  theme(axis.text.x = element_text(angle = 45, vjust = .5, hjust = 1), 
+        legend.position="none") 
+```
+
+
 ## Contact
 
 Raymond C. Glass III
