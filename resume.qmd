@@ -12,9 +12,9 @@ source(here::here("scripts", "setup.R"))
 
 I am a data professional working in the field of analytics and data querying/transformation. Currently I am used to working in a semi-structured development environment to create various data solutions to solve for the needs of many different business areas of a financial institution.
 
-## Experience
+## ![](resume_files/figure-html/database-icon.png){width="27" height="27"} Experience
 
-### Business Intelligence Developer  \|  RBFCU  \|  Jul.2020 - Present
+### Business Intelligence Developer \| RBFCU \| Jul.2020 - Present
 
 Responsible for the collection, transformation, and analysis of data from various sources to produce value and insights for business areas and other data management teams through the production and maintenance of data visualizations and tabular reports, data analyses, data applications, and data extracts.
 
@@ -28,15 +28,15 @@ Responsible for the collection, transformation, and analysis of data from variou
 
 -   Maintain and curate a catalog of business intelligence assets, with supporting code versioning repositories and thorough documentation.
 
-### Quantitative Risk Analyst  \|  USAA  \|  Apr.2019 - Jul.2020
+### Quantitative Risk Analyst \| USAA \| Apr.2019 - Jul.2020
 
 Positioned in the first line of defense to ensure the overall effectiveness of risk and compliance management programs, risk analytics and operations in the business. This role partners and collaborates with Compliance and Risk Management, as well as Business Operations, IT, Audit Services, and Regulators to support risk and compliance based initiatives. Responsible for ensuring adherence to the governance of the established risk framework and ongoing supervision of business controls including risk and control self-assessments, identification and evaluation of control effectiveness, identifying control failures, facilitating risk and compliance remediation, market conduct exams, and monitoring the first line of defense in an effort to minimize risk exposures and strengthen the overall control environment. Leverages risk assessment data, and identifies key data-driven insights tied to first line of defense.
 
-### Business Intelligence Analyst  \|  RBFCU  \|  Jan.2019 - Apr.2019
+### Business Intelligence Analyst \| RBFCU \| Jan.2019 - Apr.2019
 
 Responsible for ensuring the integrity and efficiency of data flows and that data is shaped and delivered to the appropriate consumer to enable the business to make data driven business decisions using data analytics. Accountable for designing, development, and maintaining business intelligence tools, databases, dashboards, systems and established data querying methods. Additionally, gather and manipulate/synthesize data, models, and other relevant information to draw conclusions and make recommendations resulting in implementable strategies, generating insightful data visuals, reports, and data extracts.
 
-## Skills
+## ![](resume_files/figure-html/database-icon.png){width="27" height="27"} Skills
 
 ### Data oriented coding languages:
 
@@ -60,7 +60,7 @@ Responsible for ensuring the integrity and efficiency of data flows and that dat
 
 -   Atlassian products such as Confluence for wiki (documentation), Jira (process flow and ticketing), etc.
 
-## Skills Demonstrated
+## ![](resume_files/figure-html/database-icon.png){width="26" height="27"} Skills Demonstrated
 
 ```{r}
 #| label: starwars-height
@@ -107,8 +107,19 @@ ggplot(homeworld_mass, aes(reorder(homeworld, -avg_mass), avg_mass, color = home
         legend.position="none") 
 ```
 
+## ![](resume_files/figure-html/database-icon.png){width="26" height="27"} Formal Education
 
-## Contact
+BBA Major in Finance
+
+University of Texas San Antonio
+
+2004 - 2008
+
+San Antonio, TX USA
+
+![](resume_files/figure-html/utsa-logo.jpg){width="334"}
+
+## ![](resume_files/figure-html/database-icon.png){width="27" height="28"} Contact
 
 Raymond C. Glass III
 
